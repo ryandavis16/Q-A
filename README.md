@@ -1,1 +1,6 @@
 # Q-A
+To make sure my code is functional and secure I rely a lot on testing. Writing unit tests in JUnit showed me if the methods worked like they should and also gave me a chance to see what happened when bad inputs were used. Doing this helped me feel confident that the program wouldn’t break in simple or edge cases, and it also gave some protection against issues that could lead to bugs later.
+
+I use the requirements to figure out what the user actually needs instead of just what I think should be built. For example, if the rule said a name or phone number had to be within a certain length, I wrote tests to check both valid and invalid values. That way the program reflected what the user expected, not just what I wanted to code.
+
+When I design software, I like to break it into small pieces and build it up from there. In this course that meant separate services for contacts, tasks, and appointments. Working on one part at a time made the project easier to test and understand, but I also had to think about how each piece would connect with the others. Starting with a simple structure and then adding tests along the way made the design process smoother and gave me more confidence in the final project.
